@@ -1,0 +1,18 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "env": {
+    "GROQ_API_KEY": {
+      "description": "API key for Groq LLaMA API",
+      "placeholder": "gsk_..."
+    }
+  },
+  "functions": {
+    "api/groq-proxy.ts": {
+      "memory": 128,
+      "maxDuration": 10,
+      "runtime": "nodejs18.x"
+    }
+  },
+  "crons": []
+}
