@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Neon Techno Lab",
+  "description": "A high-performance browser-based techno sequencer and synthesizer with audio-reactive particle visuals and a Gemini-powered AI production assistant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
